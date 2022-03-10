@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: pro_micro
+  - board: seeeduino_xiao
     shield: The-Inductor
