@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: ferris_rev02
+  - board: pro_micro
     shield: The-Inductor
