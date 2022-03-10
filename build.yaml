@@ -14,5 +14,4 @@
 ---
 include:
   - board: ferris_rev02
-  - board: The-Inductor
     shield: The-Inductor
