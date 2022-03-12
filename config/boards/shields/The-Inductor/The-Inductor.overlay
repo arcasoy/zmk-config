@@ -5,8 +5,8 @@
 &xiao_i2c {
     status = "okay";
 
-    expander: mcp23xxx@0 {
-        compatible = "microchip,mcp23xxx";
+    expander: mcp23sxx@0 {
+        compatible = "microchip,mcp23sxx";
         status = "okay";
         gpio-controller;
         reg = <0>;    
