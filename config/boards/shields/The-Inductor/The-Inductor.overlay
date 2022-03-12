@@ -1,3 +1,17 @@
+&xiao_spi { status = "disabled"; };
+
+&xiao_serial { status = "disabled"; };
+
+&xiao_i2c {
+    status = okay;
+
+    sda-gpios: <&xiao_d 4>
+    scl-gpios: <&xiao_d 5>
+
+    expander: mcp23xxx@0 {};
+
+};
+
 / {
     chosen {
         zmk,kscan = &kscan0;
@@ -6,18 +20,16 @@
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
+
         diode-direction = "col2row";
 
         col-gpios
-            = <&porta 0 GPIO_ACTIVE_HIGH>
-            , <&porta 1 GPIO_ACTIVE_HIGH>
-            , <&porta 2 GPIO_ACTIVE_HIGH>
+            = <&xiao_d 8 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 9 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
-            = <&porta 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&porta 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&porta 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
 };
