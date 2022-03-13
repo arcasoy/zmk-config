@@ -6,10 +6,10 @@ config ZMK_KEYBOARD_NAME
 config I2C
     default y
 
-config ZMK_USB
+config GPIO
     default y
 
-config ZMK_USB_LOGGING
+config ZMK_USB
     default y
 
 endif
