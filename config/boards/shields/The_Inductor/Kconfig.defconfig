@@ -9,9 +9,6 @@ config I2C
 config GPIO
     default y
 
-//config ZMK_USB
-//    default y
-
 config ZMK_USB_LOGGING
     default y
 
