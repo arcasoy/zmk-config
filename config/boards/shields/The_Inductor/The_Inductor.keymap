@@ -24,7 +24,7 @@
     };
 
     keymap {
-        compatible = "zmk,keymap";
+        compatible = "keymap";
 
         default_layer {
             bindings = <
