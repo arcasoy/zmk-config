@@ -3,4 +3,9 @@ if The_Inductor
 config ZMK_KEYBOARD_NAME
     default "The Inductor"
 
+config I2C
+    defauly y
+
+    
+
 endif
