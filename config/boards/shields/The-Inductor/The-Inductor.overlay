@@ -1,8 +1,8 @@
 &xiao_i2c {
     status = "okay";
 
-    expander: mcp23xxx@0 {
-        compatible = "microchip,mcp23xxx";
+    expander: mcp230xx@0 {
+        compatible = "microchip,mcp230xx";
         status = "okay";
         reg = <0>;    
         label = "MCP23018";
