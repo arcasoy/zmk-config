@@ -14,4 +14,4 @@
 ---
 include:
   - board: seeeduino_xiao
-    shield: The-Inductor
+    shield: The_Inductor

@@ -1,6 +1,0 @@
-if The-Inductor
-
-config ZMK_KEYBOARD_NAME
-    default "The Inductor"
-
-endif

@@ -1,2 +1,0 @@
-config The-Inductor
-    def_bool $(shields_list_contains,The-Inductor)
