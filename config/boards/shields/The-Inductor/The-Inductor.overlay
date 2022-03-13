@@ -15,10 +15,10 @@
 
 / {
     chosen {
-        zmk,kscan = &kscan0;
+        zmk,kscan = &kscan;
     };
 
-    kscan0: kscan_0 {
+    kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
 
