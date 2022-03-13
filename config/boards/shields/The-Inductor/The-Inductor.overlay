@@ -3,6 +3,8 @@
 
     expander: mcp230xx@0 {
         compatible = "microchip,mcp230xx";
+        gpio-controller;
+        #gpio-cells = <2>;
         status = "okay";
         reg = <0>;    
         label = "MCP23018";
