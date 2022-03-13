@@ -5,6 +5,7 @@
         compatible = "microchip,mcp230xx";
         gpio-controller;
         #gpio-cells = <2>;
+        ngpios = <16>;
         status = "okay";
         reg = <0>;    
         label = "MCP23018";
