@@ -1,4 +1,4 @@
-if The_Inductor
+if THE_INDUCTOR
 
 config ZMK_KEYBOARD_NAME
     default "The Inductor"
