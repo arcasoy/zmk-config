@@ -43,8 +43,8 @@
             ;
 
         row-gpios
-            = <&expander 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>
-            , <&expander 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>
+            = <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
     };
