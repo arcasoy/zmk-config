@@ -1,0 +1,12 @@
+file_format: "1"
+id: the_inductor
+name: The_Inductor
+type: shield
+url: https://github.com/arcasoy/The-Inductor
+requires: [seeediuno_xiao]
+exposes: [i2c]
+features:
+  - keys
+siblings:
+  - the_inductor_left
+  - the_inductor_right

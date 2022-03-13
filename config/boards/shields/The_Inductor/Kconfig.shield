@@ -1,0 +1,2 @@
+config THE_INDUCTOR
+    def_bool $(shields_list_contains,The_Inductor)
