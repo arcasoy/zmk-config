@@ -12,7 +12,4 @@ config GPIO
 config ZMK_USB_LOGGING
     default y
 
-config ZMK_USB
-    default y
-
 endif
