@@ -22,29 +22,16 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
 
-        diode-direction = "col2row";
-
-/*
-       col-gpios
-            = <&xiao_d 2 (GPIO_ACTIVE_HIGH)>
-            , <&xiao_d 3 (GPIO_ACTIVE_HIGH)>
-            ;
-
-        row-gpios
-            = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            ;
-*/
-
+        diode-direction = "row2col";
 
         col-gpios
-            = <&expander 0 (GPIO_ACTIVE_LOW)>
-            , <&expander 1 (GPIO_ACTIVE_LOW)>
+            = <&expander 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&expander 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
 
         row-gpios
-            = <&expander 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&expander 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            = <&expander 8 (GPIO_ACTIVE_LOW)>
+            , <&expander 9 (GPIO_ACTIVE_LOW)>
             ;
 
     };
