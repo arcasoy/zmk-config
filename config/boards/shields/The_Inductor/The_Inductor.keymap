@@ -13,7 +13,7 @@
 &lt { quick_tap_ms = <200>; };
 
 // Default to bluetooth connection
-&out { OUT_BLE }
+&out { OUT_BLE };
 
 / {
     behaviors {
