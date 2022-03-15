@@ -38,13 +38,13 @@
 
 
         col-gpios
-            = <&expander 0 (GPIO_ACTIVE_HIGH)>
-            , <&expander 1 (GPIO_ACTIVE_HIGH)>
+            = <&expander 0 (GPIO_ACTIVE_LOW)>
+            , <&expander 1 (GPIO_ACTIVE_LOW)>
             ;
 
         row-gpios
-            = <&expander 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>
-            , <&expander 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>
+            = <&expander 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&expander 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
 
     };
