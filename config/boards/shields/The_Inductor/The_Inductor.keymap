@@ -12,9 +12,6 @@
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
 
-// Default to bluetooth connection
-&out { OUT_BLE };
-
 / {
     behaviors {
         hm: homerow_mods {
@@ -32,8 +29,8 @@
 
         default_layer {
             bindings = <
-                &kp W      &kp A      
-                &kp S      &kp D
+                &bt BT_PRV      &bt BT_NXT      
+                &bt_CLR         &out OUT_BLE
             >;
         };
     };
