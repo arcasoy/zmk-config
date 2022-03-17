@@ -32,14 +32,14 @@
 
         default_layer {
             bindings = <
-                &tog KEY_L      &bt BT_NXT      
-                &bt BT_CLR     &out OUT_BLE
+                &mo KEY_L      &kp H      
+                &bt BT_CLR     &out OUT_TOG
             >;
         };
 
         key_layer {
             bindings = <
-                &tog BT_L    &kp A
+                &trans      &kp A
                 &kp B       &kp C
             >;
         };
