@@ -9,6 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#define BT_L 1
+#define KEY_L 2
+
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
 
@@ -29,8 +32,15 @@
 
         default_layer {
             bindings = <
-                &bt BT_PRV      &bt BT_NXT      
-                &bt BT_CLR      &out OUT_BLE
+                &lt KEY_L      &bt BT_NXT      
+                &bt BT_CLR     &out OUT_BLE
+            >;
+        };
+
+        key_layer {
+            bindings = <
+                &lt BT_L    &kp A
+                &kp B       &kp C
             >;
         };
     };
