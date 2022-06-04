@@ -25,25 +25,25 @@
         diode-direction = "row2col";
 
         col-gpios
-            = <&expander 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&expander 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&expander 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&expander 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&expander 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&expander 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&expander 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&expander 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&expander 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            = <&expander 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&expander 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&expander 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&expander 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&expander 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&expander 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&expander 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&expander 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&expander 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&expander 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&expander 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
 
         row-gpios
-            = <&expander 3 (GPIO_ACTIVE_LOW)>
-            , <&expander 4 (GPIO_ACTIVE_LOW)>
-            , <&expander 5 (GPIO_ACTIVE_LOW)>
-            , <&expander 6 (GPIO_ACTIVE_LOW)>
-            , <&expander 7 (GPIO_ACTIVE_LOW)>
+            = <&expander 11 (GPIO_ACTIVE_LOW)>
+            , <&expander 12 (GPIO_ACTIVE_LOW)>
+            , <&expander 13 (GPIO_ACTIVE_LOW)>
+            , <&expander 14 (GPIO_ACTIVE_LOW)>
+            , <&expander 15 (GPIO_ACTIVE_LOW)>
             ;
 
     };
