@@ -18,4 +18,7 @@ config ZMK_USB
 config ZMK_KSCAN_MATRIX_POLLING
     default y
 
+config LOG_PROCESS_THREAD_STARTUP_DELAY_MS
+    default 2500
+
 endif
