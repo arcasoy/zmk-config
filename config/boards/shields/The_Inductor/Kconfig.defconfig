@@ -21,7 +21,4 @@ config ZMK_KSCAN_MATRIX_POLLING
 config LOG_PROCESS_THREAD_STARTUP_DELAY_MS
     default 2500
 
-config GPIO_LOG_LEVEL_DBG
-    default y
-
 endif
